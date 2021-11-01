@@ -1,3 +1,5 @@
+// Print out leap years from 1900-2050 
+
 #include <iostream>
 
 using std::cout;
@@ -10,7 +12,7 @@ int main ()
 
     for (int i = 1900; i<=2050; i++)
     {
-        if ((i % 400==0) || (i % 4==0 && i % 100!=0))
+        if ((i % 400==0) || (i % 4==0 && i % 100!=0)) 
         {
             cout << i << " ";
         }
